@@ -1,2 +1,43 @@
-/*TEST GIT EKO HERDIANTO*/
-/*TEST PERUBAHAN*/
+.header-container {
+    border : 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: aquamarine;
+}
+
+hr{
+    margin: 0px;
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+}
+
+.nav-container>button {
+    height: 25px;
+}
+
+.section-container {
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+.section-container>header {
+    text-align: center;
+}
+
+.section-content-container {
+    display: flex;
+}
+
+.name-input {
+    height:  24px;
+    width: 50%;
+    border: 1px solid aqua;
+    border-radius: 16px;
+}
