@@ -1,7 +1,12 @@
-*,html,body{
+*{
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
+    box-sizing:border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+
 }
 
 
@@ -15,7 +20,7 @@
 
 .fContainerBeg {
     width: 100%;
-    height: 40vh;
+    height: 30vh;
 }
 
 .wrapper {
@@ -25,7 +30,7 @@
     font-size: 20px;
     padding: 10px;
     width: 100%;
-    height: 40px;
+    height: 50px;
     background-color: whitesmoke;
     box-shadow: 0 7px 15px 0 rgba(0,0,0,0.5); 
 }
@@ -55,6 +60,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 5px;
 }
 
 .navigation > li{
@@ -98,7 +104,7 @@
 }
 
 .form{
-    width: 255px;
+    width: 355px;
     height: 450px;
     background:#ecf0f3;
    /* position: absolute;
@@ -168,12 +174,14 @@ background: rgb(248, 24, 173);
 }
 
 .contentform1{
-    width:auto;
     height: 300px;
-    background:#ecf0f3;
-    border-radius: 10px;
     padding: 25px;
+ /*   background:#ecf0f3;
+     width:auto;
+    border-radius: 10px;
+
     margin: 15px;
+    overflow: hidden; */
 }
 
 .contentform2{
@@ -181,10 +189,6 @@ background: rgb(248, 24, 173);
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
-}
-
-.section-container2 {
-
 }
 
 .package{
@@ -227,4 +231,8 @@ background: rgb(248, 24, 173);
 
 .btnn:hover{
 background: rgb(248, 24, 173);
+}
+
+.images{
+    height: 100%;
 }
