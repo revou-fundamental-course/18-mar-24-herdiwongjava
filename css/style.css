@@ -82,7 +82,6 @@
 }
 
 .content{
-    width: 1200px;
     padding-top: 70px;
     height: auto;
     margin: auto;
@@ -281,10 +280,14 @@ background: rgb(248, 24, 173);
 }
 
 @media only screen and (max-width:480px){
-.wrapper,
 .section-content-container,
 .pack-list,
 .pack-list2{
     flex-direction: column;
+}
+
+.wrapper {
+height: 80px;
+flex-direction: column;
 }
 }
