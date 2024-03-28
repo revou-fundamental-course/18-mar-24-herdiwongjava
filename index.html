@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIGREgaleri</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -30,25 +31,42 @@
             <div class="section-content-form">
                 <div class ="contentform1">
                     <div class="images">
-                        <img src="img/1.jpg">
-                        <img src="img/2.jpg">
-                        <img src="img/3.jpg">
-                        <img src="img/4.jpg">
+                        <img class="banner-img" src="img/1.jpg">
+                        <img class="banner-img" src="img/2.jpg">
+                        <img class="banner-img" src="img/3.jpg">
+                        <img class="banner-img" src="img/4.jpg">
                      </div>
                 </div>
                 <div class ="contentform2">
                     <label style="font-size: 14px; font-style: italic; color: #a4acb4;">"Liburan menjadi menyenangkan bersama Travel Agenku."</label></br></br>
-                    <label style="font-size: 12px; font-weight: bold; color: #2c343f;">Florence Hughes</label></br>
-                    <label style="font-size: 12px; font-style: italic; color: #a4acb4;">Ibu Rumah Tangga, 28</label></br></br>
+                    
+                    <section class="coment">
+                        <div>
+                            <img class="usr" src="img/u.jpg">
+                        </div>
+                        <div>
+                            <label style="font-size: 12px; font-weight: bold; color: #2c343f;">Florence Hughes</label></br>
+                            <label style="font-size: 12px; font-style: italic; color: #a4acb4;">Ibu Rumah Tangga, 28</label></br></br>
+                        </div>
+                    </section>
                     <label style="font-size: 13px; font-weight: bold; color: #2c343f;">Use the space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or product</label></br></br></br>
-
-                    <label style="font-size: 14px; color: #a4acb4;">Your firts feature, writen in the form of a benefit statement</label></br></br>
-                    <label style="font-size: 14px; color: #a4acb4;">Your second feature, writen in the form of a benefit statement</label></br></br>
-                    <label style="font-size: 14px; color: #a4acb4;">Your thirt feature writen, in the form of a benefit statement</label></br></br>
+                    <div class="feature">
+                        <img class="num" src="img/1.png">
+                        <label style="font-size: 14px; color: #a4acb4;">Your firts feature, writen in the form of a benefit statement</label></br></br>
+                    </div>
+                    <div class="feature">
+                        <img class="num" src="img/2.png">
+                        <label style="font-size: 14px; color: #a4acb4;">Your second feature, writen in the form of a benefit statement</label></br></br>
+                    </div>
+                    <div class="feature">    
+                        <img class="num" src="img/3.png">
+                        <label style="font-size: 14px; color: #a4acb4;">Your thirt feature writen, in the form of a benefit statement</label></br></br>
+                    </div>
                 </div>
-            </div>
+             </div>
+        
 
-            <div class ="form">
+            <form class ="form" name="contact-form">
                 <h3>Contact Us</h3></br>
                 <p>Marketing akan menghubungi anda 1x24 jam setelah data kami terima</p></br></br>
                 <label>Your name:</label><br />
@@ -56,9 +74,18 @@
                 <label>Email Address:</label><br />
                 <input type="email" name="email" placeholder="exemple@email.com"><br /><br />
                 <label>What are you interested in?</label><br />
-                <input type="text" name="where" placeholder="select option"><br /><br />
-                <button class="btn"><a href="#">SEND</a></button>
-            </div>
+               <!-- <input type="text" name="where" placeholder="select option"><br /><br />  -->
+                <select class = "listbox" name="slct">
+                    <option value = ''>select option</option>
+                    <option value = 'Asia'>Asia</option>
+                    <option value = 'Eropa'>Eropa</option>
+                    <option value = 'Amerika'>Amerika</option>
+                    <option value = 'Australia'>Australia</option>
+                    <option value = 'Afrika'>Afrika</option>
+                    <option value = 'Antariksa'>Antariksa</option>
+                </select>
+                <button type="button" class="btn" id="send-button"><a href="#">SEND</a></button>
+            </form>
         </div>
     </section>
 
@@ -66,6 +93,66 @@
         <div class="package">
             <label style="font-size: 35px; font-weight: bold; color: #2c343f;">Our Package</label>
         </div></br>
+            <div class="pack-list">
+                <section class="coment">
+                    <div>
+                        <img class="pack-num" src="img/t.png">
+                    </div>
+                    <div>
+                        <label style="font-size: 14px; font-weight: bold; color: #2c343f;">Bali</label></br>
+                        <label style="font-size: 12px; font-style: italic; color: #a4acb4;">Travel dan wisata di Bali dan kunjungi cagar budaya dan kuliner yang menarik</label></br></br>
+                    </div>
+                </section>
+                <section class="coment">
+                    <div>
+                        <img class="pack-num" src="img/t.png">
+                    </div>
+                    <div>
+                        <label style="font-size: 14px; font-weight: bold; color: #2c343f;">Bandung</label></br>
+                        <label style="font-size: 12px; font-style: italic; color: #a4acb4;">Travel dan wisata di Bandung kunjungi cagar budaya dan kuliner yang menarik</label></br></br>
+                    </div>
+                </section>
+                <section class="coment">
+                    <div>
+                        <img class="pack-num" src="img/t.png">
+                    </div>
+                    <div>
+                        <label style="font-size: 14px; font-weight: bold; color: #2c343f;">Singapore</label></br>
+                        <label style="font-size: 12px; font-style: italic; color: #a4acb4;">Travel dan wisata di Singapore kunjungi cagar budaya dan kuliner yang menarik</label></br></br>
+                    </div>
+                </section>
+            </div>
+
+            <div class="pack-list2">
+                <section class="coment">
+                    <div>
+                        <img class="pack-num" src="img/s.png">
+                    </div>
+                    <div>
+                        <label style="font-size: 14px; font-weight: bold; color: #2c343f;">Japan</label></br>
+                        <label style="font-size: 12px; font-style: italic; color: #a4acb4;">Travel dan wisata di Japan kunjungi cagar budaya dan kuliner yang menarik</label></br></br>
+                    </div>
+                </section>
+                <section class="coment">
+                    <div>
+                        <img class="pack-num" src="img/s.png">
+                    </div>
+                    <div>
+                        <label style="font-size: 14px; font-weight: bold; color: #2c343f;">Surabaya</label></br>
+                        <label style="font-size: 12px; font-style: italic; color: #a4acb4;">Travel dan wisata di Surabaya kunjungi cagar budaya dan kuliner yang menarik</label></br></br>
+                    </div>
+                </section>
+                <section class="coment">
+                    <div>
+                        <img class="pack-num" src="img/s.png">
+                    </div>
+                    <div>
+                        <label style="font-size: 14px; font-weight: bold; color: #2c343f;">Thirt Feature</label></br>
+                        <label style="font-size: 12px; font-style: italic; color: #a4acb4;">Travel dan wisata dimanapun kunjungi cagar budaya dan kuliner yang menarik</label></br></br>
+                    </div>
+                </section>
+            </div>
+
         <div class="in-package">
             <label style="font-size: 35px; font-weight: bold; color: #2c343f;">Your Closing Argument Headline</label></br>
             <label style="font-size: 14px; color: #a4acb4;">Suspendisse egestas rhouncus urna in bibendum. Donec urna naque, euismod sed</label></br>

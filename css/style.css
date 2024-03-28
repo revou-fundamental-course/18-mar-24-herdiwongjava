@@ -101,7 +101,7 @@
 
 .section-content-container {
     display: flex;
-}
+   }
 
 .form{
     width: 355px;
@@ -113,6 +113,14 @@
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
+}
+
+.listbox{
+    width: 250px;
+    height: 40px;
+    border-color:#c1cde0 ;
+    border-radius: 5px;
+    font-size: 12px;
 }
 
 .form>h3{
@@ -235,4 +243,48 @@ background: rgb(248, 24, 173);
 
 .images{
     height: 100%;
+}
+
+.coment{
+    display: flex;
+}
+
+.usr{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.num{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+}
+
+.pack-list{
+    display: flex;
+}
+
+.pack-list2{
+    display: flex;
+}
+
+.pack-num{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width:480px){
+.wrapper,
+.section-content-container,
+.pack-list,
+.pack-list2{
+    flex-direction: column;
+}
 }
